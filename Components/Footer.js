@@ -1,10 +1,13 @@
 import React from "react"
 
+function redirectToGitHub() {
+    window.location.href = "https://github.com/Disha-swp";
+}
 export default function Footer(){
     return(
         <div className="footer">
             <img src="../Images/Twitter.png"/>
-            <img src="../Images/GitHub.png"/>
+            <img onClick={redirectToGitHub} src="../Images/GitHub.png"/>
         </div>
     )
 }
