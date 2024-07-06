@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #23252C;
+    margin: 7% 35%;
+    width: 300px;
+}
+.card{
+    background-color: #1A1B21;
+    width: 300px;
+    color: #FFFFFF;
+    font-family: Inter;    
+    border-radius: 0px 0px 10px 10px;
+}
+.profile-image{
+    width: 300px;
+    height: 50%;    
+    border-radius: 10px 10px 0px 0px;
+}
+.name{    
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.job-name{
+    font-size: 12.8px;
+    margin: 4px;
+    text-align: center;
+    color: #F3BF99;
+}
+.website{
+    text-align: center;
+    font-size: 10.8px;
+    margin-top: 6px;
+}
+.btn{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn1{
+    background-color: white;
+    color: #374151;
+}
+.btn2{
+    background-color: #5093E2;    
+    color: white;
+}
+.btn > button{
+    margin: 10px;
+    padding: 5px 18px;
+    width: 40%;
+    border: 0px;
+    border-radius: 6px;
+}
+.btn>button>img{
+    margin: auto 4px;
+}
+.img-2{
+    margin-bottom: -2px !important;
+}
+.main-body{    
+    padding: 5px 18px;
+}
+.heading{
+    font-size: 16px;
+    line-height: 24px;
+}
+.para{
+    font-size: 10.24px;
+    line-height: 15.36px;
+}
+.footer{
+    text-align: center;
+    background-color: #161619;    
+    border-radius: 0px 0px 10px 10px;
+}
+.footer>img{
+    margin: 15px;
+}
